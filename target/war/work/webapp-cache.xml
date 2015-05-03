@@ -1,0 +1,1004 @@
+<webapp-structure>
+  <registeredFiles>
+    <entry>
+      <string>currentBuild</string>
+      <path-set>
+        <pathsSet class="linked-hash-set">
+          <string>WEB-INF/lib/hk2-api-2.3.0.jar</string>
+          <string>WEB-INF/lib/hk2-locator-2.3.0.jar</string>
+          <string>WEB-INF/lib/hk2-utils-2.3.0.jar</string>
+          <string>WEB-INF/lib/javassist-3.4.GA.jar</string>
+          <string>WEB-INF/lib/javax.annotation-api-1.2.jar</string>
+          <string>WEB-INF/lib/javax.inject-1.jar</string>
+          <string>WEB-INF/lib/javax.ws.rs-api-2.0.jar</string>
+          <string>WEB-INF/lib/jersey-client.jar</string>
+          <string>WEB-INF/lib/jersey-common.jar</string>
+          <string>WEB-INF/lib/jersey-container-servlet-core.jar</string>
+          <string>WEB-INF/lib/jersey-container-servlet.jar</string>
+          <string>WEB-INF/lib/jersey-guava-2.8.jar</string>
+          <string>WEB-INF/lib/jersey-jsr166e-2.17.jar</string>
+          <string>WEB-INF/lib/jersey-media-jaxb.jar</string>
+          <string>WEB-INF/lib/jersey-server.jar</string>
+          <string>WEB-INF/lib/jsr311-api-1.1.1.jar</string>
+          <string>WEB-INF/lib/log4j-1.2.14.jar</string>
+          <string>WEB-INF/lib/validation-api-1.1.0.Final.jar</string>
+          <string>WEB-INF/web.xml</string>
+          <string>WEB-INF/classes/applicationContext.xml</string>
+          <string>WEB-INF/classes/com/brighttalk/rest/dao/EmployeeDao.class</string>
+          <string>WEB-INF/classes/com/brighttalk/rest/dao/impl/EmployeeDaoImpl.class</string>
+          <string>WEB-INF/classes/com/brighttalk/rest/dao/impl/EmployeeRowMapper.class</string>
+          <string>WEB-INF/classes/com/brighttalk/rest/entity/Employee.class</string>
+          <string>WEB-INF/classes/com/brighttalk/rest/service/EmployeeService.class</string>
+          <string>WEB-INF/classes/log4j.properties</string>
+          <string>WEB-INF/lib/jersey-spring3-2.4.1.jar</string>
+          <string>WEB-INF/lib/jersey-server-2.4.1.jar</string>
+          <string>WEB-INF/lib/jersey-container-servlet-core-2.4.1.jar</string>
+          <string>WEB-INF/lib/hk2-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/hk2-utils-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/config-types-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/core-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/hk2-config-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/tiger-types-1.4.jar</string>
+          <string>WEB-INF/lib/bean-validator-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/hk2-runlevel-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/class-model-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/spring-bridge-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/jersey-media-json-jackson-2.4.1.jar</string>
+          <string>WEB-INF/lib/jersey-common-2.4.1.jar</string>
+          <string>WEB-INF/lib/osgi-resource-locator-1.0.1.jar</string>
+          <string>WEB-INF/lib/jackson-core-asl-1.9.11.jar</string>
+          <string>WEB-INF/lib/jackson-mapper-asl-1.9.11.jar</string>
+          <string>WEB-INF/lib/jackson-jaxrs-1.9.11.jar</string>
+          <string>WEB-INF/lib/jackson-xc-1.9.11.jar</string>
+          <string>WEB-INF/lib/spring-core-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-asm-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/commons-logging-1.1.1.jar</string>
+          <string>WEB-INF/lib/spring-context-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-aop-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-beans-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-expression-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-web-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/aopalliance-1.0.jar</string>
+          <string>WEB-INF/lib/spring-jdbc-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/spring-tx-3.0.2.RELEASE.jar</string>
+          <string>WEB-INF/lib/jersey-client-2.4.1.jar</string>
+          <string>WEB-INF/lib/guava-14.0.1.jar</string>
+          <string>WEB-INF/lib/hk2-api-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/javax.inject-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/hk2-locator-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/asm-all-repackaged-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/cglib-2.2.0-b21.jar</string>
+          <string>WEB-INF/lib/jersey-test-framework-provider-external-2.5.1.jar</string>
+          <string>WEB-INF/lib/jersey-test-framework-core-2.5.1.jar</string>
+        </pathsSet>
+      </path-set>
+    </entry>
+  </registeredFiles>
+  <dependenciesInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.glassfish.jersey.ext</groupId>
+        <artifactId>jersey-spring3</artifactId>
+        <version>2.4.1</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>spring-core</artifactId>
+            <groupId>org.springframework</groupId>
+            <locations class="linked-hash-map">
+              <entry>
+                <string></string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>207</lineNumber>
+                  <columnNumber>16</columnNumber>
+                  <source>
+                    <modelId>org.brighttalk:btalk:0.0.1-SNAPSHOT</modelId>
+                    <location>C:\Users\sagsarka\SVD-Workspace\btalk\pom.xml</location>
+                  </source>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+              <entry>
+                <string>groupId</string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>208</lineNumber>
+                  <columnNumber>15</columnNumber>
+                  <source reference="../../../entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+              <entry>
+                <string>artifactId</string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>209</lineNumber>
+                  <columnNumber>18</columnNumber>
+                  <source reference="../../../entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+            </locations>
+          </org.apache.maven.model.Exclusion>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>spring-web</artifactId>
+            <groupId>org.springframework</groupId>
+            <locations class="linked-hash-map">
+              <entry>
+                <string></string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>211</lineNumber>
+                  <columnNumber>16</columnNumber>
+                  <source reference="../../../../../org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+              <entry>
+                <string>groupId</string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>212</lineNumber>
+                  <columnNumber>15</columnNumber>
+                  <source reference="../../../../../org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+              <entry>
+                <string>artifactId</string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>213</lineNumber>
+                  <columnNumber>18</columnNumber>
+                  <source reference="../../../../../org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+            </locations>
+          </org.apache.maven.model.Exclusion>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>spring-beans</artifactId>
+            <groupId>org.springframework</groupId>
+            <locations class="linked-hash-map">
+              <entry>
+                <string></string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>215</lineNumber>
+                  <columnNumber>16</columnNumber>
+                  <source reference="../../../../../org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+              <entry>
+                <string>groupId</string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>216</lineNumber>
+                  <columnNumber>15</columnNumber>
+                  <source reference="../../../../../org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+              <entry>
+                <string>artifactId</string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>217</lineNumber>
+                  <columnNumber>18</columnNumber>
+                  <source reference="../../../../../org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+            </locations>
+          </org.apache.maven.model.Exclusion>
+        </exclusions>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>202</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>203</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>204</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>205</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+      <targetFileName>jersey-spring3-2.4.1.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.glassfish.jersey.media</groupId>
+        <artifactId>jersey-media-json-jackson</artifactId>
+        <version>2.4.1</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>221</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>222</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>223</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>224</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+      <targetFileName>jersey-media-json-jackson-2.4.1.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-core</artifactId>
+        <version>3.0.2.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>226</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>227</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>228</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>229</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+      <targetFileName>spring-core-3.0.2.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>3.0.2.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>commons-logging</artifactId>
+            <groupId>commons-logging</groupId>
+            <locations class="linked-hash-map">
+              <entry>
+                <string></string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>237</lineNumber>
+                  <columnNumber>19</columnNumber>
+                  <source reference="../../../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+              <entry>
+                <string>groupId</string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>238</lineNumber>
+                  <columnNumber>20</columnNumber>
+                  <source reference="../../../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+              <entry>
+                <string>artifactId</string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>239</lineNumber>
+                  <columnNumber>23</columnNumber>
+                  <source reference="../../../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+            </locations>
+          </org.apache.maven.model.Exclusion>
+        </exclusions>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>232</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>233</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>234</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>235</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+      <targetFileName>spring-context-3.0.2.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+        <version>3.0.2.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>244</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>245</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>246</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>247</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+      <targetFileName>spring-web-3.0.2.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-jdbc</artifactId>
+        <version>3.0.2.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>250</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>251</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>252</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>253</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+      <targetFileName>spring-jdbc-3.0.2.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-tx</artifactId>
+        <version>3.0.2.RELEASE</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>256</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>257</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>258</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>259</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+      <targetFileName>spring-tx-3.0.2.RELEASE.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.27</version>
+        <type>jar</type>
+        <scope>provided</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>262</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>263</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>264</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>265</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>scope</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>266</lineNumber>
+              <columnNumber>11</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-jdbc</artifactId>
+        <version>7.0.35</version>
+        <type>jar</type>
+        <scope>provided</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>270</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>271</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>272</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>273</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>scope</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>274</lineNumber>
+              <columnNumber>11</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.glassfish.jersey.core</groupId>
+        <artifactId>jersey-client</artifactId>
+        <version>2.4.1</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>278</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>279</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>280</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>281</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+      <targetFileName>jersey-client-2.4.1.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>commons-dbcp</groupId>
+        <artifactId>commons-dbcp</artifactId>
+        <version>1.4</version>
+        <type>jar</type>
+        <scope>test</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>283</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>284</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>285</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>286</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>scope</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>287</lineNumber>
+              <columnNumber>11</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-test</artifactId>
+        <version>3.0.2.RELEASE</version>
+        <type>jar</type>
+        <scope>test</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>289</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>290</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>291</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>292</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>scope</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>293</lineNumber>
+              <columnNumber>11</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.8.1</version>
+        <type>jar</type>
+        <scope>test</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>295</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>296</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>297</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>298</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>scope</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>299</lineNumber>
+              <columnNumber>11</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>com.jayway.restassured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>2.1.0</version>
+        <type>jar</type>
+        <scope>test</scope>
+        <exclusions>
+          <org.apache.maven.model.Exclusion>
+            <artifactId>groovy</artifactId>
+            <groupId>org.codehaus.groovy</groupId>
+            <locations class="linked-hash-map">
+              <entry>
+                <string></string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>307</lineNumber>
+                  <columnNumber>16</columnNumber>
+                  <source reference="../../../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+              <entry>
+                <string>groupId</string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>308</lineNumber>
+                  <columnNumber>15</columnNumber>
+                  <source reference="../../../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+              <entry>
+                <string>artifactId</string>
+                <org.apache.maven.model.InputLocation>
+                  <lineNumber>309</lineNumber>
+                  <columnNumber>18</columnNumber>
+                  <source reference="../../../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+                </org.apache.maven.model.InputLocation>
+              </entry>
+            </locations>
+          </org.apache.maven.model.Exclusion>
+        </exclusions>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>301</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>302</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>303</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>304</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>scope</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>312</lineNumber>
+              <columnNumber>11</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-all</artifactId>
+        <version>2.2.0</version>
+        <type>jar</type>
+        <scope>test</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>314</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>315</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>316</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>318</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>scope</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>319</lineNumber>
+              <columnNumber>11</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.glassfish.jersey.test-framework.providers</groupId>
+        <artifactId>jersey-test-framework-provider-external</artifactId>
+        <version>2.5.1</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <locations class="linked-hash-map">
+          <entry>
+            <string></string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>321</lineNumber>
+              <columnNumber>15</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>groupId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>322</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>artifactId</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>323</lineNumber>
+              <columnNumber>16</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+          <entry>
+            <string>version</string>
+            <org.apache.maven.model.InputLocation>
+              <lineNumber>324</lineNumber>
+              <columnNumber>13</columnNumber>
+              <source reference="../../../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/exclusions/org.apache.maven.model.Exclusion/locations/entry/org.apache.maven.model.InputLocation/source"/>
+            </org.apache.maven.model.InputLocation>
+          </entry>
+        </locations>
+      </dependency>
+      <targetFileName>jersey-test-framework-provider-external-2.5.1.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+  </dependenciesInfo>
+</webapp-structure>
