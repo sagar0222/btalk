@@ -61,14 +61,14 @@ public class EmployeeDaoImpl implements EmployeeDao {
 	public void createEmployee(Employee employee) {
 
 		String sql = "INSERT INTO EMPLOYEE "
-				+ "(ID, FIRSTNAME, LASTNAME, EMAIL, PHONE) "
-				+ "VALUES (EMPID_SEQ.NEXTVAL, ?, ?, ?, ?)";
+				+ "( FIRSTNAME, LASTNAME, EMAIL, PHONE) "
+				+ "VALUES ( ?, ?, ?, ?)";
 
 		jdbcTemplate = new JdbcTemplate(dataSource);
 
 		jdbcTemplate.update(
 				sql,
-				new Object[] { employee.getId(), employee.getFirstName(),
+				new Object[] { employee.getFirstName(),
 						employee.getLastName(), employee.getEmail(),
 						employee.getPhone() });
 
@@ -107,8 +107,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		
 		String sql = "SELECT * FROM EMPLOYEE";
 	 
-		@SuppressWarnings("unchecked")
-		List<Employee> employees = (List<Employee>) new JdbcTemplate(dataSource).queryForObject(
+		List<Employee> employees = (List<Employee>) new JdbcTemplate(dataSource).query(
 				sql, new EmployeeRowMapper());
 		
 		
@@ -127,7 +126,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 	public boolean updateEmployee(Employee employee) {
 
 		String sql = "UPDATE EMPLOYEE "
-				+ "SET FIRSTNAME =?, LASTNAME =?, EMAIL=?, PHONE=?) "
+				+ "SET FIRSTNAME =?, LASTNAME =?, EMAIL=?, PHONE=? "
 				+ "WHERE ID=?";
 
 		jdbcTemplate = new JdbcTemplate(dataSource);
@@ -156,30 +155,10 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
 		jdbcTemplate = new JdbcTemplate(dataSource);
 		
-		jdbcTemplate.execute(sql);
+		jdbcTemplate.update(sql, new Object[] { id });
 		
 		return true;
 	}
 
-	/* (non-Javadoc)
-	 * @see com.brighttalk.rest.dao.EmployeeDao#isEmployeeExist(com.brighttalk.rest.entity.Employee)
-	 */
-	/**.
-	 * Checks if an employee record matching with the ID already exist in DB
-	 * @param employee Employee
-	 * @return boolean
-	 */
-	@Override
-	public boolean isEmployeeExist(Employee employee) {
-		String sql = "SELECT count(*) FROM EMPLOYEE WHERE ID=?";
-
-		jdbcTemplate = new JdbcTemplate(dataSource);
-		
-		int employeeCount = jdbcTemplate.queryForInt(sql);
-		if(employeeCount ==0) 
-			return true;
-		
-		return false;
-	}
-
+	
 }

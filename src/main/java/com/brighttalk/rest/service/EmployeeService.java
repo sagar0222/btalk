@@ -60,10 +60,7 @@ public class EmployeeService {
 	@Produces({MediaType.TEXT_HTML})	
 	@Transactional
 	public Response createEmployee(Employee employee) {
-		
-		if(isEmployeeExist(employee))
-			return Response.status(406).entity("Employee already exist").build(); 
-		
+				
 		employeeDao.createEmployee(employee);
 			return Response.status(201).entity("Employee created successfully").build(); 		
 	}
@@ -84,16 +81,13 @@ public class EmployeeService {
 	@Produces({MediaType.TEXT_HTML})	
 	@Transactional
 	public Response createEmployeFromWebPage(
-						@FormParam("id") int id,
 						@FormParam("firstName") String firstName,
 						@FormParam("lastName") String lastName,
 						@FormParam("email") String email,
 						@FormParam("phone") String phone
 						) {
-		Employee employee = new Employee(id, firstName, lastName, email, phone);
-		if(isEmployeeExist(employee))
-			return Response.status(406).entity("Employee already exist").build(); 
-			
+		Employee employee = new Employee(firstName, lastName, email, phone);
+		
 		employeeDao.createEmployee(employee);
 			return Response.status(201).entity("New employee created successfully").build(); 		
 	}
@@ -144,7 +138,7 @@ public class EmployeeService {
 	public Response updateEmployeeById(@PathParam("id") int id, Employee employee) {
 		String message; 
 		int status; 
-		if(updateEmployee(employee)){
+		if(employeeDao.updateEmployee(employee)){
 			status = 200; //OK
 			message = "Employee has been updated";
 		} else {
@@ -157,28 +151,7 @@ public class EmployeeService {
 		return Response.status(status).entity(message).build();		
 	}
 	
-	/**.
-	 * Checks if the employee already exists is DB.
-	 * @param employee Employee
-	 * @return boolean
-	 */
-	private boolean isEmployeeExist(Employee employee){
-		return employeeDao.isEmployeeExist(employee);
-		
-	}
-	
-	/**.
-	 * Updates the employee attributes in DB.
-	 * @param employee Employee
-	 * @return boolean
-	 */
-	private boolean updateEmployee(Employee employee) {
-		if (isEmployeeExist(employee)) return false;
-		
-		return employeeDao.updateEmployee(employee);
-	}
-
-		
+			
 	
 	/**.
 	 * Deletes an employee from DB.
@@ -190,7 +163,7 @@ public class EmployeeService {
 	@Transactional
 	public Response deletePodcastById(@PathParam("id") int id) {
 		if(employeeDao.deleteEmployee(id)){
-			return Response.status(204).build();
+			return Response.status(200).entity("Employee with the id " + id + " deleted successfully.").build();
 		} else {
 			return Response.status(404).entity("Employee with the id " + id + " is not present in the database").build();
 		}

@@ -28,9 +28,9 @@ public class Employee {
 	}
 
 	/** Public parameterized constructor **/
-	public Employee(int id, String firstName, String lastName, String email, String phone) {
+	public Employee( String firstName, String lastName, String email, String phone) {
 		super();
-		this.id = id;
+		
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;

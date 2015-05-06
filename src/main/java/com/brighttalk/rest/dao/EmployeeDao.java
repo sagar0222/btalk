@@ -35,5 +35,4 @@ public interface EmployeeDao {
 	
 	public boolean deleteEmployee (int id);
 	
-	public boolean isEmployeeExist (Employee employee);
 }
