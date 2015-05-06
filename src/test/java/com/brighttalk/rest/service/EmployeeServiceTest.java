@@ -19,6 +19,7 @@ import org.glassfish.jersey.jackson.JacksonFeature;
 import javax.ws.rs.client.Invocation.Builder;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.codehaus.jackson.map.ObjectMapper;
 
@@ -31,7 +32,7 @@ import com.brighttalk.rest.entity.Employee;
 public class EmployeeServiceTest {
 
 	
-	
+	@Ignore
 	@Test
 	public void testGetEmployees() throws JsonGenerationException,
 			JsonMappingException, IOException {
